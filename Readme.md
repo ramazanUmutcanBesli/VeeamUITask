@@ -1,4 +1,4 @@
-# veeam Careers UI Testing Project
+# Veeam Careers Website UI Testing Project
 cz.careers.veeam.com is a career website in Czechia.
 
 Here is the [Link](https://cz.careers.veeam.com/company) for more information.
