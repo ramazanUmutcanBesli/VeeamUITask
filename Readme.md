@@ -3,6 +3,10 @@ cz.careers.veeam.com is a career website in Czechia.
 
 Here is the [Link](https://cz.careers.veeam.com/company) for more information.
 
+### For this project it should verify count of actual found Jobs and expected Jobs
+
+
+
 # Steps to Create Project
 1. Create a maven project called `VeeamUITask`.
 2. Add below property section under `pom.xml`.
@@ -80,12 +84,13 @@ Here is the [Link](https://cz.careers.veeam.com/company) for more information.
 6. Create `resources` folder and `features` package.
 7. Create package called `veeam` under `test/java/com`.
     * Create a `pages` package and `basePage.java ` class under `pages`package.
-    * Implement all of WebElement related to `careers page`
+    * Implement all of WebElement related to `SearchPage` java classes.
 
 
 8. Create a package called `runners` and java classes called `CukesRunner` and`FailedTestRunner`.
 9. Create a package called `step_definitions`.
     * Create a java class called `Hooks` which use `@Before` and `@After` annotations.
 10. Create a `features` package under `resources`.
-    * 
+    * create `verifyCountofvacancies.feature` file in features folder.
 11. Created unimplemented snippets in `step_definitions` package.
+    * create `VeeamUIstepdefinitions.java`  in `step_definitions` package.
